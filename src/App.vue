@@ -258,26 +258,26 @@ import * as echarts from 'echarts'
 // <script src="js/jquery-1.11.0.min.js" type="text/javascript">
 // <script src="js/jquery.shey.js" type="text/javascript">
 // <script type="text/javascript" src="js/jquery.tersebanner.min.js">
-onMounted(()=>{
-  var myChart = echarts.init(document.getElementById('main'));
-  var option;
-  option = {
-    xAxis: {
-      type: 'category',
-      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-    },
-    yAxis: {
-      type: 'value'
-    },
-    series: [
-      {
-        data: [150, 230, 224, 218, 135, 147, 260],
-        type: 'line'
-      }
-    ]
-  };
-  //option && myChart.setOption(option);
-})
+// onMounted(()=>{
+//   var myChart = echarts.init(document.getElementById('main'));
+//   var option;
+//   option = {
+//     xAxis: {
+//       type: 'category',
+//       data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+//     },
+//     yAxis: {
+//       type: 'value'
+//     },
+//     series: [
+//       {
+//         data: [150, 230, 224, 218, 135, 147, 260],
+//         type: 'line'
+//       }
+//     ]
+//   };
+//   //option && myChart.setOption(option);
+// })
 
 </script>
 <style scoped>
@@ -377,7 +377,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .yw_list li:hover .imgb{display: block;}
 .yw_list li:hover h4{color: #cc3333}
 /*关于我们*/
-.about_bg{background: url(./assets/about.png)no-repeat center;height: 420px;margin-top: 32px;position: relative;}
+.about_bg{background: url(./assets/nva_06-1.png)no-repeat center;height: 420px;margin-top: 32px;position: relative;}
 .about_bj{position: absolute;width: 100%;height: 100%;left: 0;background: rgba(0,0,0,0.73)}
 .about_box{
   width: 1200px;
@@ -408,8 +408,8 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .case_list dd{width: 339px;height: 474px;float: left;margin: 5px;position: relative;overflow: hidden;}
 
 .case_bj{position: absolute;width: 100%;top: 0;left: 0;height: 100%;}
-.bj{background: rgba(0,0,0,0.62) url(./assets/lj.png) no-repeat center;width: 100%;height: 379px;transform: translateY(-474px);-webkit-transform: translateY(-474px);-moz-transform: translateY(-474px);-ms-transform: translateY(-474px);}
-.bj_dt{background: rgba(0,0,0,0.62) url(./assets/lj.png) no-repeat center;width: 100%;height: 137px;transform: translateY(-137px);-webkit-transform: translateY(-137px);-moz-transform: translateY(-137px);-ms-transform: translateY(-137px);}
+.bj{background: rgba(0,0,0,0.62) url(./assets/nva_06-1.png) no-repeat center;width: 100%;height: 379px;transform: translateY(-474px);-webkit-transform: translateY(-474px);-moz-transform: translateY(-474px);-ms-transform: translateY(-474px);}
+.bj_dt{background: rgba(0,0,0,0.62) url(./assets/nva_06-1.png) no-repeat center;width: 100%;height: 137px;transform: translateY(-137px);-webkit-transform: translateY(-137px);-moz-transform: translateY(-137px);-ms-transform: translateY(-137px);}
 .case_nr{background: #fff;height: 95px; width:320px; position: absolute;bottom: 0;left: 0;padding: 0 13px;transform: translate(0,95px);-webkit-transform: translate(0,95px);-moz-transform: translate(0,95px);-ms-transform: translate(0,95px)}
 .case_nr_dt{background: #fff;height: 95px;width:320px; position: absolute;bottom: 0;left: 0;padding: 0 13px;transform: translate(0,95px);-webkit-transform: translate(0,95px);-moz-transform: translate(0,95px);-ms-transform: translate(0,95px)}
 .case_nr h3,.case_nr_dt h3{font-size: 14px;color: #cc3333;margin-top: 16px;}
@@ -604,7 +604,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .case ul li{width: 270px;margin: 10px;float: left;}
 .case_t{width: 270px;height: 196px;position: relative;overflow: hidden;}
 .case_t img{width: 100%;display: block;}
-.case_t span{position: absolute;width: 100%;height: 100%;top: 0;background: rgba(0,0,0,0.7) url(./assets/lj.png) no-repeat center;transform: translateY(-196px);-webkit-transform: translateY(-196px);-moz-transform: translateY(-196px);-ms-transform: translateY(-196px);}
+.case_t span{position: absolute;width: 100%;height: 100%;top: 0;background: rgba(0,0,0,0.7) url(./assets/nva_06-1.png) no-repeat center;transform: translateY(-196px);-webkit-transform: translateY(-196px);-moz-transform: translateY(-196px);-ms-transform: translateY(-196px);}
 .case ul li p{font-size: 14px;color: #666;text-align: center;margin: 7px;}
 .case ul li:hover .case_t span{transform: translateY(0);-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);}
 .case ul li:hover p{color: #cc3333;}
