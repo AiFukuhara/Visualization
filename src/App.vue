@@ -1,81 +1,35 @@
 <template>
-  <div id="main" style="width: 100vw;height: 400px"></div>
-<!--  <div class="ym_bg">-->
-<!--    <div class="ym_box">-->
-<!--      <div class="logo fd_l"> <img src="./assets/1-1P5141GT54Q.png" alt="logo"> </div>-->
-<!--      <ul class="ym_nva fd_l">-->
-<!--        <li><a href="javascript:;" class="ys">首页</a></li>-->
-<!--        <li><a href="javascript:;" class=''>关于我们</a>-->
-<!--          <ul>-->
+  <!--页眉-->
+  <div class="ym_bg">
+    <div class="ym_box">
+<!--      <div class="logo fd_l"> 西南科技大学 </div>-->
+      <ul class="ym_nva fd_l">
+        <li><a href="src/views/AboutView.vue" class="ys">首页</a></li>
+        <li><a href="javascript:;" class=''>二级学院</a>
+        </li><li><a href="javascript:;" class=''>优秀校友</a>
+      </li><li><a href="javascript:;" class=''>师资信息</a>
 
-<!--            <li><a href="javascript:;">发展历史</a> </li>-->
+      </li><li><a href="javascript:;" class=''>招生信息</a>
 
-<!--            <li><a href="javascript:;">企业文化</a> </li>-->
+      </li><li><a href="javascript:;" class=''>科学研究</a>
 
-<!--          </ul>-->
-<!--        </li><li><a href="javascript:;" class=''>产品展示</a>-->
-<!--        <ul>-->
+      </li><li><a href="javascript:;" class=''>社会服务</a>
 
-<!--          <li><a href="javascript:;">第一系列</a> </li>-->
-
-<!--          <li><a href="javascript:;">第二系列</a> </li>-->
-
-<!--          <li><a href="javascript:;">第三系列</a> </li>-->
-
-<!--          <li><a href="javascript:;">第四系列</a> </li>-->
-
-<!--          <li><a href="javascript:;">第五系列</a> </li>-->
-
-<!--          <li><a href="javascript:;">第六系列</a> </li>-->
-
-<!--        </ul>-->
-<!--      </li><li><a href="javascript:;" class=''>新闻资讯</a>-->
-<!--        <ul>-->
-
-<!--          <li><a href="javascript:;">公司动态</a> </li>-->
-
-<!--          <li><a href="javascript:;">行业新闻</a> </li>-->
-
-<!--        </ul>-->
-<!--      </li><li><a href="javascript:;" class=''>客户案例</a>-->
-<!--        <ul>-->
-
-<!--          <li><a href="javascript:;">最新案例</a> </li>-->
-
-<!--          <li><a href="javascript:;">经典案例</a> </li>-->
-
-<!--        </ul>-->
-<!--      </li><li><a href="javascript:;" class=''>人才招聘</a>-->
-<!--        <ul>-->
-
-<!--        </ul>-->
-<!--      </li><li><a href="javascript:;" class=''>联系我们</a>-->
-<!--        <ul>-->
-
-<!--        </ul>-->
-<!--      </li>-->
+      </li>
 <!--        <div class="clearfix"></div>-->
-<!--      </ul>-->
-<!--      <div class="ym_ss fd_r"> <span> </span> <a href="javascript:;" target="_blank"></a>-->
-<!--        <div class="sous">-->
-<!--          <form name="formsearch" method="get" action="/so.php" style="display: flex;">-->
-<!--            <input type="text" placeholder="输入关键词" class="sr" name="q" id="q">-->
-<!--            <button type="submit" class="ss" ></button>-->
-<!--          </form>-->
-<!--        </div>-->
-<!--        <div class="clearfix"></div>-->
-<!--      </div>-->
+      </ul>
 <!--      <div class="clearfix"></div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--  &lt;!&ndash;banner&ndash;&gt;-->
+    </div>
+  </div>
+  <!--banner-->
 <!--  <div class="banner">-->
 <!--    <ul>-->
 <!--      <li><a href="javascript:;"><img src="./assets/1-1P5141G119449.png"></a></li><li><a href="javascript:;"><img src="./assets/1-1P5141G021L0.png"></a></li>-->
 <!--    </ul>-->
 <!--  </div>-->
-<!--  &lt;!&ndash;主营业务&ndash;&gt;-->
-<!--  <div class="yw_box" >-->
+
+  <!--主营业务-->
+<!--  <div class="yw_box">-->
 <!--    <h2><span>产品展示</span></h2>-->
 <!--    <h3></h3>-->
 <!--    <ul class="yw_list">-->
@@ -110,10 +64,19 @@
 <!--  &lt;!&ndash;关于我们&ndash;&gt;-->
 <!--  <div class="about_bg">-->
 <!--    <div class="about_bj">-->
-
+<!--      <div class="about_box">-->
+<!--        <div class="about_tu"> <img src="./assets/1-1P5141H951K2.png"> </div>-->
+<!--        <div class="about_nr">-->
+<!--          <h2>关于我们</h2>-->
+<!--          <h3></h3>-->
+<!--          <div style="height:210px; overflow:hidden;">-->
+<!--            <p> 广东某某机电制造有限公司成立于2003年，位于广东省广州市，占地面积约10亩，厂房面积约3500平方米，拥有卷板机、剪板机、折边机、埋弧自动焊机、CO2气体保护焊机、氩弧焊机、车床、摇臂钻床、自动调心翻转架等先进机械生产加工设备，目前最大起重能力为25吨，设计最大起重能力为36吨，是以铝融解炉，环保设备、水处理设备制造安装为主，其他化工配套设备，管道制造安装为辅的新兴企业，公司注册资本为300万元人民币，总资产约1000万元，现有职工180人，各类专业技术及管理人员19人。公司专业生产和安装各类碳钢，不锈钢、铝合金钛合金设备和管道，并承揽安装过程。 公司在生产过程中按ISO9001系列标准建立质量保证体系，抓实物形态 ... </p>-->
+<!--          </div>-->
+<!--          <a href="javascript:;"></a> </div>-->
+<!--      </div>-->
 <!--    </div>-->
 <!--  </div>-->
-<!--  &lt;!&ndash;案例&ndash;&gt;-->
+  <!--案例-->
 <!--  <div class="case_bg">-->
 <!--    <div class="case_box">-->
 <!--      <div class="bt">-->
@@ -180,7 +143,7 @@
 <!--      </dl>-->
 <!--      <a href="javascript:;" class="gd"></a> </div>-->
 <!--  </div>-->
-<!--  &lt;!&ndash;最新资讯&ndash;&gt;-->
+  <!--最新资讯-->
 <!--  <div class="news_box">-->
 <!--    <div class="bt">-->
 <!--      <h2>新闻资讯</h2>-->
@@ -222,6 +185,79 @@
 <!--      <div class="clearfix"></div>-->
 <!--    </ul>-->
 <!--    <a href="javascript:;" class="gd"></a></div>-->
+  <!--友情链接-->
+<!--  <dl class="yq">-->
+<!--    <dd>友情链接</dd>-->
+<!--    <span></span>-->
+<!--    <dt><a href='javascript:;' target='_blank'>代码库CMS</a> </dt><dt><a href='javascript:;' target='_blank'>百度</a> </dt><dt><a href='javascript:;' target='_blank'>新浪</a> </dt><dt><a href='javascript:;' target='_blank'>搜狐</a> </dt><dt><a href='javascript:;' target='_blank'>网易</a> </dt><dt><a href='javascript:;' target='_blank'>代码库模板</a> </dt><dt><a href='javascript:;' target='_blank'>代码库教程</a> </dt><dt><a href='javascript:;' target='_blank'>虚拟主机</a> </dt><dt><a href='javascript:;' target='_blank'>代码库</a> </dt>-->
+<!--    <div class="clearfix"></div>-->
+<!--  </dl>-->
+  <!--页脚-->
+<!--  <div class="yj_bg">-->
+<!--    <div class="yj_box">-->
+<!--      <div class="yj_fw">-->
+<!--        <h2>服务热线：<span>0896-8734688834</span></h2>-->
+<!--        <h3>地址：<span>这里是您的公司地址</span></h3>-->
+<!--      </div>-->
+<!--      <div class="yj_list">-->
+<!--        <dl>-->
+<!--          <dd>关于我们</dd>-->
+
+<!--          <dt><a href="javascript:;" title="发展历史">发展历史</a></dt>-->
+
+<!--          <dt><a href="javascript:;" title="企业文化">企业文化</a></dt>-->
+
+<!--        </dl><dl>-->
+<!--        <dd>产品展示</dd>-->
+
+<!--        <dt><a href="javascript:;" title="第一系列">第一系列</a></dt>-->
+
+<!--        <dt><a href="javascript:;" title="第二系列">第二系列</a></dt>-->
+
+<!--        <dt><a href="javascript:;" title="第三系列">第三系列</a></dt>-->
+
+<!--        <dt><a href="javascript:;" title="第四系列">第四系列</a></dt>-->
+
+<!--        <dt><a href="javascript:;" title="第五系列">第五系列</a></dt>-->
+
+<!--        <dt><a href="javascript:;" title="第六系列">第六系列</a></dt>-->
+
+<!--      </dl><dl>-->
+<!--        <dd>新闻资讯</dd>-->
+
+<!--        <dt><a href="javascript:;" title="公司动态">公司动态</a></dt>-->
+
+<!--        <dt><a href="javascript:;" title="行业新闻">行业新闻</a></dt>-->
+
+<!--      </dl><dl>-->
+<!--        <dd>客户案例</dd>-->
+
+<!--        <dt><a href="javascript:;" title="最新案例">最新案例</a></dt>-->
+
+<!--        <dt><a href="javascript:;" title="经典案例">经典案例</a></dt>-->
+
+<!--      </dl><dl>-->
+<!--        <dd>人才招聘</dd>-->
+
+<!--      </dl>-->
+<!--        <dl>-->
+<!--          <dd>联系我们</dd>-->
+<!--          <div class="yj_lx">-->
+<!--            <div class="lx_z">-->
+<!--              <dt>电话：<span>0896-8734688834</span></dt>-->
+<!--              <dt>手机：<span>13866668888</span></dt>-->
+<!--              <dt>邮箱：<span><a href="javascript:;" class="__cf_email__" data-cfemail="">[email&#160;protected]</a></span></dt>-->
+<!--              <dt>传真：<span>0896-8734688834</span></dt>-->
+<!--              <dt class="js">技术支持：<a href="javascript:;">代码库网络</a></dt>-->
+<!--            </div>-->
+<!--            <div class="gz"><img src="./assets/ewm.png">-->
+<!--              <p>关注我们</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </dl>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 <!--  <div class="dibu">Copyright ? 2006-2014 dmakucms.com <a href="javascript:;" target="_blank">Power by dmakuCms</a></div>-->
 <!--  <div class="zaix_box">-->
 <!--    <ul>-->
@@ -248,12 +284,371 @@
 <!--      </li>-->
 <!--    </ul>-->
 <!--  </div>-->
+
+<!--  <div id="sector"></div>-->
+
+
+<!--  <div id="table1" :style="{ width: width + 'px', height: height + 'px' }"></div>-->
+
+<!--  <div id="table2"></div>-->
+
+  <div id="map"  :style="{ width: width + 'px', height: height + 'px' }"></div>
+
 </template>
-<script setup lang="ts">
-import {onMounted} from "vue";
+
+<script lang="ts">
+
+
+
 import * as echarts from 'echarts'
-// import { RouterLink, RouterView } from 'vue-router'
-// import HelloWorld from './components/HelloWorld.vue'
+
+import { defineComponent, onMounted ,nextTick} from 'vue';
+
+
+import { RouterLink, RouterView } from 'vue-router'
+import HelloWorld from './components/HelloWorld.vue'
+
+
+//104.70291013907156,31.540988948821173
+export default defineComponent({
+
+
+  props: {
+    // 传入需要定位的经纬度
+    latitude: {
+      type: Number,
+      default: () => {
+        return 31.540988948821173
+      },
+    },
+    longitude: {
+      type: Number,
+      default: () => {
+        return 104.70291013907156
+      },
+    },
+    width: {
+      type: Number,
+      default: 900,
+    },
+    height: {
+      type: Number,
+      default: 650,
+    },
+    isShow:{
+      default:true,
+    }
+  },
+
+  setup(props, { emit }) {
+    const BMap = (window as any).BMap
+
+    onMounted(() => {
+      var map = new BMap.Map('map')
+      var point = new BMap.Point(props.longitude, props.latitude,props.isShow)
+      //   var point = new BMap.Point(116.46, 39.92)
+      console.log(props.latitude)
+      console.log(props.longitude)
+      //   console.log(point)
+
+      map.centerAndZoom(point, 16)
+      map.enableScrollWheelZoom(true)
+
+      map.addEventListener('click', function (e: any) {
+        //   let a = JSON.parse(e)
+        console.log('点击的经纬度：' + e.point.lng + ',' + e.point.lat) //
+        emit('update:longitude', e.point.lng)
+        emit('update:latitude', e.point.lat)
+      })
+
+      // var point = new BMap.Point(104.71079726144916,31.53772669852304);
+      var marker = new BMap.Marker(point);        // 创建标注
+      map.addOverlay(marker);
+
+      var sContent = `<h4 style='margin:0 0 5px 0;'>科技之光</h4>
+    <img style='float:right;margin:0 4px 22px' id='imgDemo' src='./assets/swust_01.png' width='139' height='104'/>
+    <p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>
+        西南科技大学科技之光广场是本校的地标性建筑之一其雕塑上由0和1的计算机语言、钉子以及齿轮组成，
+    象征计算机学院与制造学院的光辉历程。本产品雕塑为金属材质，底座为亚克力板，外罩为透明亚克力材料，
+    可作为摆件镇纸作用，造型简洁，具有很强的收藏纪念意义。
+        21世纪是信息时代主导的全新时代，基于计算机技术的信息化、网络化、现代化、智能化广泛应用于社会各个行业，
+    计算机成为了日常生产与生活、管理、娱乐、科研等的主要工具。而计算机的工作原理是基于二进制的以数字1和0代表的代码进行的。
+    所以，西南科技大学校园内的科技之光广场上的标志性景观雕塑就是代表：科技、信息人才培养及时代标志的视觉景观雕塑。
+    </p></div>`;
+      var infoWindow = new BMap.InfoWindow(sContent);
+      marker.addEventListener("click", function(){
+        this.openInfoWindow(infoWindow);
+        // 图片加载完毕重绘infoWindow
+        document.getElementById('imgDemo').onload = function () {
+          infoWindow.redraw(); // 防止在网速较慢时生成的信息框高度比图片总高度小，导致图片部分被隐藏
+        };
+        //alert("您点击了标注");
+      });
+
+
+      // var map = new BMap.Map('map');
+      // var point = new BMap.Point(116.404, 39.915);
+      // map.centerAndZoom(point, 15);
+      // map.enableScrollWheelZoom(true);
+
+// 绘制面
+
+      var polygon = new BMap.Polygon([
+        // new BMap.Point(116.387112, 39.920977),
+        // new BMap.Point(116.385243, 39.913063),
+        // new BMap.Point(116.394226, 39.917988),
+        // new BMap.Point(116.401772, 39.921364),
+        // new BMap.Point(116.41248, 39.927893),
+        new BMap.Point(104.69687352604446,31.54723606342599),
+        new BMap.Point(104.69611894941607,31.5459743485647),
+        new BMap.Point(104.69687352604446,31.54458951974275),
+        new BMap.Point(104.69813115375842,31.545451193448496),
+        new BMap.Point(104.6991372559296,31.545851253509667),
+        new BMap.Point(104.69985590033758,31.54532809769666),
+        new BMap.Point(104.70014335810077,31.544435648592792),
+        new BMap.Point(104.70143691803514,31.54440487433206),
+        new BMap.Point(104.70244302020632,31.5442510028747),
+        new BMap.Point(104.70258674908791,31.544866487167123),
+        new BMap.Point(104.7032694612755,31.544958809457476),
+        new BMap.Point(104.70355691903869,31.546066669748388),
+        new BMap.Point(104.70506607229545,31.5458820272888),
+        new BMap.Point(104.71232438081607,31.545205001780886),
+        new BMap.Point(104.71225251637527,31.53809593453112),
+        new BMap.Point(104.71016844759212,31.536495549631038),
+        new BMap.Point(104.70887488765776,31.53634166500761),
+        new BMap.Point(104.7070423444174,31.536157003121396),
+        new BMap.Point(104.70506607229545,31.535449129140794),
+        new BMap.Point(104.70398810568348,31.5344642519782),
+        new BMap.Point(104.7029820035123,31.53320236278212),
+        new BMap.Point(104.70237115576552,31.531817342621473),
+        new BMap.Point(104.70096979916995,31.532556022622124),
+        new BMap.Point(104.6989216626072,31.53366403155891),
+        new BMap.Point(104.69744844157084,31.534218031048358),
+        new BMap.Point(104.69482538948171,31.537326522171607),
+        new BMap.Point(104.69234606627417,31.540588786591268),
+        new BMap.Point(104.69198674407018,31.54286614823108),
+        new BMap.Point(104.69058538747461,31.544497197083512),
+        new BMap.Point(104.6909087774582,31.54628208548502),
+        new BMap.Point(104.69187894740898,31.547789981582387),
+        new BMap.Point(104.6950409828041,31.548036166363953),
+        new BMap.Point(104.69687352604446,31.547389929),
+      ], {
+        strokeColor: 'blue',
+        strokeWeight: 5,
+        strokeOpacity: 0.7
+      });
+      map.addOverlay(polygon);
+
+
+// // 绘制线
+//       var polyline = new BMap.Polyline([
+//         new BMap.Point(116.399, 39.910),
+//         new BMap.Point(116.405, 39.920),
+//         new BMap.Point(116.423493, 39.907445)
+//       ], {
+//         strokeColor: 'blue',
+//         strokeWeight: 2,
+//         strokeOpacity: 0.5
+//       });
+//       map.addOverlay(polyline);
+// 绘制圆
+//       var circle = new BMap.Circle(new BMap.Point(104.695562,31.54202), 5000, {
+//         strokeColor: 'blue',
+//         strokeWeight: 2,
+//         strokeOpacity: 0.5
+//       });
+//       map.addOverlay(circle);
+
+      // function openEdit() {
+      //   polyline.enableEditing();
+      //   polygon.enableEditing();
+      //   circle.enableEditing();
+      // }
+      // function closeEdit() {
+      //   polygon.disableEditing();
+      //   polyline.disableEditing();
+      //   circle.disableEditing();
+      // }
+    })
+    // onMounted(()=>{
+    //   var myChart = echarts.init(document.getElementById('table1'));
+    //   var option;
+    //   option = {
+    //     xAxis: {
+    //       type: 'category',
+    //       data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    //     },
+    //     yAxis: {
+    //       type: 'value'
+    //     },
+    //     series: [
+    //       {
+    //         data: [150, 230, 224, 218, 135, 147, 260],
+    //         type: 'line'
+    //       }
+    //     ]
+    //   };
+    //   option && myChart.setOption(option);
+    // })
+
+    // onMounted(()=>{
+    //   var myChart = echarts.init(document.getElementById('table2'));
+    //
+    //   // 指定图表的配置项和数据
+    //   var option = {
+    //     title: {
+    //       text: '第一个 ECharts 实例'
+    //     },
+    //     tooltip: {},
+    //     legend: {
+    //       data:['销量']
+    //     },
+    //     xAxis: {
+    //       data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+    //     },
+    //     yAxis: {},
+    //     series: [{
+    //       name: '销量',
+    //       type: 'bar',
+    //       data: [5, 20, 36, 10, 10, 20]
+    //     }]
+    //   };
+    //
+    //   // 使用刚指定的配置项和数据显示图表。
+    //   myChart.setOption(option);
+    // })
+
+    // onMounted(()=>{
+    //   type EChartsOption = echarts.EChartsOption;
+    //
+    //   var chartDom = document.getElementById('sector')!;
+    //   var myChart = echarts.init(chartDom);
+    //   var option: EChartsOption;
+    //
+    //   var data = [
+    //     {
+    //       name: 'Grandpa',
+    //       children: [
+    //         {
+    //           name: 'Uncle Leo',
+    //           value: 15,
+    //           children: [
+    //             {
+    //               name: 'Cousin Jack',
+    //               value: 2
+    //             },
+    //             {
+    //               name: 'Cousin Mary',
+    //               value: 5,
+    //               children: [
+    //                 {
+    //                   name: 'Jackson',
+    //                   value: 2
+    //                 }
+    //               ]
+    //             },
+    //             {
+    //               name: 'Cousin Ben',
+    //               value: 4
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           name: 'Aunt Jane',
+    //           children: [
+    //             {
+    //               name: 'Cousin Kate',
+    //               value: 4
+    //             }
+    //           ]
+    //         },
+    //         {
+    //           name: 'Father',
+    //           value: 10,
+    //           children: [
+    //             {
+    //               name: 'Me',
+    //               value: 5,
+    //               itemStyle: {
+    //                 color: 'red'
+    //               }
+    //             },
+    //             {
+    //               name: 'Brother Peter',
+    //               value: 1
+    //             }
+    //           ]
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       name: 'Mike',
+    //       children: [
+    //         {
+    //           name: 'Uncle Dan',
+    //           children: [
+    //             {
+    //               name: 'Cousin Lucy',
+    //               value: 3
+    //             },
+    //             {
+    //               name: 'Cousin Luck',
+    //               value: 4,
+    //               children: [
+    //                 {
+    //                   name: 'Nephew',
+    //                   value: 2
+    //                 }
+    //               ]
+    //             }
+    //           ]
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       name: 'Nancy',
+    //       children: [
+    //         {
+    //           name: 'Uncle Nike',
+    //           children: [
+    //             {
+    //               name: 'Cousin Betty',
+    //               value: 1
+    //             },
+    //             {
+    //               name: 'Cousin Jenny',
+    //               value: 2
+    //             }
+    //           ]
+    //         }
+    //       ]
+    //     }
+    //   ];
+    //
+    //   option = {
+    //     visualMap: {
+    //       type: 'continuous',
+    //       min: 0,
+    //       max: 10,
+    //       inRange: {
+    //         color: ['#2F93C8', '#AEC48F', '#FFDB5C', '#F98862']
+    //       }
+    //     },
+    //     series: {
+    //       type: 'sunburst',
+    //       data: data,
+    //       radius: [0, '90%'],
+    //       label: {
+    //         rotate: 'radial'
+    //       }
+    //     }
+    //   };
+    //
+    //   option && myChart.setOption(option);
+    // })
+  },
+})
+
 
 // <script src="js/jquery-1.11.0.min.js" type="text/javascript">
 // <script src="js/jquery.shey.js" type="text/javascript">
@@ -276,18 +671,91 @@ import * as echarts from 'echarts'
 //       }
 //     ]
 //   };
-//   //option && myChart.setOption(option);
+//   option && myChart.setOption(option);
 // })
 
+
 </script>
+
 <style scoped>
-/****************************************************************
- *																*
- * 						      代码库							*
- *                        www.dmaku.com							*
- *       		  努力创建完善、持续更新插件以及模板			*
- * 																*
-****************************************************************/
+/*body{*/
+/*  background: url("./assets/mainbackground.png");*/
+/*}*/
+.logo fd_l{
+  text-align:center;
+  color:red;
+
+}
+
+#map{
+  /*width: 100% !important;*/
+  /*height: 55vh !important;*/
+  /*margin: 20px auto;*/
+  /*overflow: hidden;*/
+
+  /*transform: translateX(-50%);*/
+  /*position: absolute;*/
+  /*left: 30%;*/
+  /*background-color: #f5a623;*/
+  /*padding: 2px 10px;*/
+  /*border-radius: 6px;*/
+  /*color: #fff;*/
+  /*text-align: center;*/
+
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "微软雅黑";
+  top:150px;
+  left:100px;
+
+}
+
+#sector{
+  background-color: #009DDC;
+  margin-bottom: 0px;
+  width: 100%;
+  overflow: scroll;
+  text-align: left;
+  color: white;
+  left: 0px;
+  top:0px;
+
+}
+
+#table1{
+  background-color: #009DDC;
+  margin-bottom: 0px;
+  width: 100%;
+  overflow: scroll;
+  text-align: left;
+  color: white;
+  left: 0px;
+  top:0px;
+}
+
+#table2{
+  background-color: #009DDC;
+  margin-bottom: 0px;
+  width: 100%;
+  overflow: scroll;
+  text-align: left;
+  color: white;
+  left: 0px;
+  top:0px;
+}
+
+body{
+  background:url("~@/./assets/mainbackground.png");
+  width:100%;
+  height:100%;
+  position:fixed;
+  background-size:100% 100%;
+}
+/*template{background: url(./assets/mainbackground.png);background-repeat: repeat-y}*/
+
+
 /*@charset "utf-8";*/
 /* CSS Document */
 
@@ -301,9 +769,12 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 
 .bj,.bj_dt{transition: all 0.6s;-webkit-transition: all 0.5s;-moz-transition: all 0.5s;-ms-transition: all 0.5s;}
 /*页眉*/
-.ym_bg{box-shadow: 0 2px 6px 0 rgba(0,0,0,0.44);background-color: #fff;position: fixed;width: 100%;z-index: 100;}
+.ym_bg{box-shadow: 0 2px 6px 0 rgba(0,0,0,0.44);background-color: #fff;position: fixed;width: 100%;z-index: 100;
+  top:30px;
+  left:0px;
+}
 .ym_box{width: 1200px;margin: 0 auto;background-color: #fff;}
-.logo{width: 267px;height: 58px;margin: 23px 0;}
+.logo{width: 267px;height: 58px;margin: 0px 0;}
 .logo img{width: 100%;}
 .ym_nva{margin-left: 132px;}
 .ym_nva li{float: left;padding: 41px 0;margin: 0 15px;}
@@ -335,6 +806,7 @@ h1,h2,h3,h4,h5,h6{font-weight: normal;}
 .banner{height: 600px;overflow: hidden;}
 /*主营业务*/
 .yw_box{width: 1200px;margin: 32px auto 0;}
+.yw_box{background-image: url("./assets/swust_01.png");background-repeat: no-repeat}
 .yw_box h2{font-size: 20px;color: #333;text-align: center;font-weight: bold;}
 .yw_box h2 span{color: #cc3333;}
 .yw_box h3{font-size: 14px;color: #999;text-align: center;margin-top: 10px;padding: 0 20px;}
