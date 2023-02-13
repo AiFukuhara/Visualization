@@ -1,10 +1,12 @@
 <template>
   <!-- <div id="map"  :style="{ width: width + 'px', height: height + 'px' }"></div> -->
-  <div id="map"></div>
+<!--  <div id="map"></div>-->
+    <div id="map"></div>
 </template>
 
 <script lang="ts">
 import { defineComponent, onMounted ,nextTick} from 'vue';
+import * as echarts from 'echarts';
 //104.70291013907156,31.540988948821173
 export default defineComponent({
   name:"SwustMap",
@@ -13,7 +15,7 @@ export default defineComponent({
     latitude: {
       type: Number,
       default: () => {
-        return 31.540988948821173
+        return 31.539988948821173
       },
     },
     longitude: {
@@ -37,7 +39,6 @@ export default defineComponent({
 
   setup(props, { emit }) {
     const BMap = (window as any).BMap
-
     onMounted(() => {
       var map = new BMap.Map('map')
       var point = new BMap.Point(props.longitude, props.latitude,props.isShow)
@@ -165,182 +166,6 @@ export default defineComponent({
       //   circle.disableEditing();
       // }
     })
-    // onMounted(()=>{
-    //   var myChart = echarts.init(document.getElementById('table1'));
-    //   var option;
-    //   option = {
-    //     xAxis: {
-    //       type: 'category',
-    //       data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-    //     },
-    //     yAxis: {
-    //       type: 'value'
-    //     },
-    //     series: [
-    //       {
-    //         data: [150, 230, 224, 218, 135, 147, 260],
-    //         type: 'line'
-    //       }
-    //     ]
-    //   };
-    //   option && myChart.setOption(option);
-    // })
-
-    // onMounted(()=>{
-    //   var myChart = echarts.init(document.getElementById('table2'));
-    //
-    //   // 指定图表的配置项和数据
-    //   var option = {
-    //     title: {
-    //       text: '第一个 ECharts 实例'
-    //     },
-    //     tooltip: {},
-    //     legend: {
-    //       data:['销量']
-    //     },
-    //     xAxis: {
-    //       data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
-    //     },
-    //     yAxis: {},
-    //     series: [{
-    //       name: '销量',
-    //       type: 'bar',
-    //       data: [5, 20, 36, 10, 10, 20]
-    //     }]
-    //   };
-    //
-    //   // 使用刚指定的配置项和数据显示图表。
-    //   myChart.setOption(option);
-    // })
-
-    // onMounted(()=>{
-    //   type EChartsOption = echarts.EChartsOption;
-    //
-    //   var chartDom = document.getElementById('sector')!;
-    //   var myChart = echarts.init(chartDom);
-    //   var option: EChartsOption;
-    //
-    //   var data = [
-    //     {
-    //       name: 'Grandpa',
-    //       children: [
-    //         {
-    //           name: 'Uncle Leo',
-    //           value: 15,
-    //           children: [
-    //             {
-    //               name: 'Cousin Jack',
-    //               value: 2
-    //             },
-    //             {
-    //               name: 'Cousin Mary',
-    //               value: 5,
-    //               children: [
-    //                 {
-    //                   name: 'Jackson',
-    //                   value: 2
-    //                 }
-    //               ]
-    //             },
-    //             {
-    //               name: 'Cousin Ben',
-    //               value: 4
-    //             }
-    //           ]
-    //         },
-    //         {
-    //           name: 'Aunt Jane',
-    //           children: [
-    //             {
-    //               name: 'Cousin Kate',
-    //               value: 4
-    //             }
-    //           ]
-    //         },
-    //         {
-    //           name: 'Father',
-    //           value: 10,
-    //           children: [
-    //             {
-    //               name: 'Me',
-    //               value: 5,
-    //               itemStyle: {
-    //                 color: 'red'
-    //               }
-    //             },
-    //             {
-    //               name: 'Brother Peter',
-    //               value: 1
-    //             }
-    //           ]
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'Mike',
-    //       children: [
-    //         {
-    //           name: 'Uncle Dan',
-    //           children: [
-    //             {
-    //               name: 'Cousin Lucy',
-    //               value: 3
-    //             },
-    //             {
-    //               name: 'Cousin Luck',
-    //               value: 4,
-    //               children: [
-    //                 {
-    //                   name: 'Nephew',
-    //                   value: 2
-    //                 }
-    //               ]
-    //             }
-    //           ]
-    //         }
-    //       ]
-    //     },
-    //     {
-    //       name: 'Nancy',
-    //       children: [
-    //         {
-    //           name: 'Uncle Nike',
-    //           children: [
-    //             {
-    //               name: 'Cousin Betty',
-    //               value: 1
-    //             },
-    //             {
-    //               name: 'Cousin Jenny',
-    //               value: 2
-    //             }
-    //           ]
-    //         }
-    //       ]
-    //     }
-    //   ];
-    //
-    //   option = {
-    //     visualMap: {
-    //       type: 'continuous',
-    //       min: 0,
-    //       max: 10,
-    //       inRange: {
-    //         color: ['#2F93C8', '#AEC48F', '#FFDB5C', '#F98862']
-    //       }
-    //     },
-    //     series: {
-    //       type: 'sunburst',
-    //       data: data,
-    //       radius: [0, '90%'],
-    //       label: {
-    //         rotate: 'radial'
-    //       }
-    //     }
-    //   };
-    //
-    //   option && myChart.setOption(option);
-    // })
   },
 })
 </script>
@@ -364,12 +189,12 @@ export default defineComponent({
   overflow: hidden;
   /* width: 100%;
   height: 100%; */
-  width: 1000px;
-  height: 1000px;
+  width: 880px;
+  height: 550px;
   margin: 0;
   font-family: "微软雅黑";
-  top:150px;
-  left:100px;
+  top:0px;
+  left:20px;
 
 }
 </style>
