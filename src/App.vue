@@ -31,7 +31,6 @@
     </div>
   </div>
 
-
 <!--  <el-container>-->
 <!--      <SectorBenke style="left: 0px;top: 0px;height: 500px;width: 900px"></SectorBenke>-->
 <!--  </el-container>-->
@@ -41,9 +40,9 @@
     <el-header style="height: 500px;left: 0px">
       <el-container style="left: 0px;width: 1400px">
         <el-aside width="800px" style="left: 0px;top: 20px;height: 500px">
-          <swustmap></swustmap> //map
+          <swustmap></swustmap>
         </el-aside>
-        
+
         <el-main style="left: 0px;height: 520px">
           <ZouMaDeng></ZouMaDeng>
         </el-main>
@@ -54,9 +53,6 @@
     </el-main>
   </el-container>
 
-<!--  <el-container>-->
-<!--    <HomePage style="width: 900px;height: auto"></HomePage>-->
-<!--  </el-container>-->
 
 </template>
 
@@ -146,80 +142,6 @@ import ZouMaDeng from "@/components/ZouMaDeng.vue";
 //         };
 //         //alert("您点击了标注");
 //       });
-
-
-//       // var map = new BMap.Map('map');
-//       // var point = new BMap.Point(116.404, 39.915);
-//       // map.centerAndZoom(point, 15);
-//       // map.enableScrollWheelZoom(true);
-
-// // 绘制面
-
-//       var polygon = new BMap.Polygon([
-//         // new BMap.Point(116.387112, 39.920977),
-//         // new BMap.Point(116.385243, 39.913063),
-//         // new BMap.Point(116.394226, 39.917988),
-//         // new BMap.Point(116.401772, 39.921364),
-//         // new BMap.Point(116.41248, 39.927893),
-//         new BMap.Point(104.69687352604446,31.54723606342599),
-//         new BMap.Point(104.69611894941607,31.5459743485647),
-//         new BMap.Point(104.69687352604446,31.54458951974275),
-//         new BMap.Point(104.69813115375842,31.545451193448496),
-//         new BMap.Point(104.6991372559296,31.545851253509667),
-//         new BMap.Point(104.69985590033758,31.54532809769666),
-//         new BMap.Point(104.70014335810077,31.544435648592792),
-//         new BMap.Point(104.70143691803514,31.54440487433206),
-//         new BMap.Point(104.70244302020632,31.5442510028747),
-//         new BMap.Point(104.70258674908791,31.544866487167123),
-//         new BMap.Point(104.7032694612755,31.544958809457476),
-//         new BMap.Point(104.70355691903869,31.546066669748388),
-//         new BMap.Point(104.70506607229545,31.5458820272888),
-//         new BMap.Point(104.71232438081607,31.545205001780886),
-//         new BMap.Point(104.71225251637527,31.53809593453112),
-//         new BMap.Point(104.71016844759212,31.536495549631038),
-//         new BMap.Point(104.70887488765776,31.53634166500761),
-//         new BMap.Point(104.7070423444174,31.536157003121396),
-//         new BMap.Point(104.70506607229545,31.535449129140794),
-//         new BMap.Point(104.70398810568348,31.5344642519782),
-//         new BMap.Point(104.7029820035123,31.53320236278212),
-//         new BMap.Point(104.70237115576552,31.531817342621473),
-//         new BMap.Point(104.70096979916995,31.532556022622124),
-//         new BMap.Point(104.6989216626072,31.53366403155891),
-//         new BMap.Point(104.69744844157084,31.534218031048358),
-//         new BMap.Point(104.69482538948171,31.537326522171607),
-//         new BMap.Point(104.69234606627417,31.540588786591268),
-//         new BMap.Point(104.69198674407018,31.54286614823108),
-//         new BMap.Point(104.69058538747461,31.544497197083512),
-//         new BMap.Point(104.6909087774582,31.54628208548502),
-//         new BMap.Point(104.69187894740898,31.547789981582387),
-//         new BMap.Point(104.6950409828041,31.548036166363953),
-//         new BMap.Point(104.69687352604446,31.547389929),
-//       ], {
-//         strokeColor: 'blue',
-//         strokeWeight: 5,
-//         strokeOpacity: 0.7
-//       });
-//       map.addOverlay(polygon);
-
-
-// // // 绘制线
-// //       var polyline = new BMap.Polyline([
-// //         new BMap.Point(116.399, 39.910),
-// //         new BMap.Point(116.405, 39.920),
-// //         new BMap.Point(116.423493, 39.907445)
-// //       ], {
-// //         strokeColor: 'blue',
-// //         strokeWeight: 2,
-// //         strokeOpacity: 0.5
-// //       });
-// //       map.addOverlay(polyline);
-// // 绘制圆
-// //       var circle = new BMap.Circle(new BMap.Point(104.695562,31.54202), 5000, {
-// //         strokeColor: 'blue',
-// //         strokeWeight: 2,
-// //         strokeOpacity: 0.5
-// //       });
-// //       map.addOverlay(circle);
 
 export default{
   components:{
