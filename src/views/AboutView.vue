@@ -1,6 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1></h1>
+    <img src="src/assets/computer.png" width="1000" height="700"  alt="" id="computer"/>
   </div>
 </template>
 
@@ -12,5 +13,12 @@
     align-items: center;
     color: red;
   }
+}
+</style>
+<style type="text/css">
+#computer{
+  position:absolute;
+  left:290px;
+  top:50px;
 }
 </style>
