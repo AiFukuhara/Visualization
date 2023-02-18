@@ -1,40 +1,121 @@
 <template>
-  <div id="myChart" :style="{ width: '1000px', height: '300px' }"></div>
+  <div style="float: left">
+    <div id="myChart" :style="{ width: '1200px', height: '300px'}"></div>
+  </div>
+
 </template>
 
 <script lang="ts">
 import { defineComponent, onMounted, getCurrentInstance } from 'vue'
 export default defineComponent({
-  setup() {
+  setup()
+  {
     const { proxy } = getCurrentInstance() as any
     // 配置建议写在 onMount 的外面
-    const option = {
-      tooltip: {
-        trigger: 'item'
+
+    const prov = [
+      {
+        name: '四川',
+        value: 5260
       },
-      color: ['#ffd666', '#ffa39e', '#409EFF', '#69cbc2', '#d3adf7'],
+      {
+        name: '其他',
+        value: 2560
+      }
+    ];
+    const sex = [
+      {
+        name: '男',
+        value: 4599
+      },
+      {
+        name: '女',
+        value: 3217
+      }
+    ];
+    const age = [
+      {
+        name: '未满18岁',
+        value: 1139
+      },
+      {
+        name: '满18岁',
+        value: 6681
+      }
+    ];
+    const option = {
+      title: [
+        {
+          text: '西南科技大学2020新生数据',
+          left: 'center'
+        },
+        {
+          subtext: '来源省份',
+          left: '16.67%',
+          top: '75%',
+          textAlign: 'center'
+        },
+        {
+          subtext: '男女比例',
+          left: '50%',
+          top: '75%',
+          textAlign: 'center'
+        },
+        {
+          subtext: '年龄比例',
+          left: '83.33%',
+          top: '75%',
+          textAlign: 'center'
+        }
+      ],
       series: [
         {
-          name: '访问来源',
           type: 'pie',
-          radius: '70%',
-          data: [
-            { value: 1048, name: '清洁能源发电区' },
-            { value: 735, name: '公共娱乐区域' },
-            { value: 580, name: '生活区域' },
-            { value: 484, name: '办公区域' },
-            { value: 300, name: '绿植空地' }
-          ],
-          emphasis: {
-            itemStyle: {
-              shadowBlur: 10,
-              shadowOffsetX: 0,
-              shadowColor: 'rgba(0, 0, 0, 0.5)'
-            }
-          }
+          radius: '75%',
+          center: ['50%', '50%'],
+          data: prov,
+          label: {
+            position: 'outer',
+            alignTo: 'none',
+            bleedMargin: 5
+          },
+          left: 0,
+          right: '66.6667%',
+          top: 0,
+          bottom: 0
+        },
+        {
+          type: 'pie',
+          radius: '75%',
+          center: ['50%', '50%'],
+          data: sex,
+          label: {
+            position: 'outer',
+            alignTo: 'labelLine',
+            bleedMargin: 5
+          },
+          left: '33.3333%',
+          right: '33.3333%',
+          top: 0,
+          bottom: 0
+        },
+        {
+          type: 'pie',
+          radius: '75%',
+          center: ['50%', '50%'],
+          data: age,
+          label: {
+            position: 'outer',
+            alignTo: 'edge',
+            margin: 20
+          },
+          left: '66.6667%',
+          right: 0,
+          top: 0,
+          bottom: 0
         }
       ]
-    }
+    };
     onMounted(() => {
       // 获取挂载的组件实例
       const echarts = proxy.$ECharts
@@ -51,3 +132,6 @@ export default defineComponent({
   }
 })
 </script>
+
+
+
