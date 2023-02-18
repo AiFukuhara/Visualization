@@ -20,7 +20,12 @@ const router = createRouter({
       path:'/homepage',
       name:'homepage',
       component:HomeView  
-    }
+    },
+    {
+      path: '/recruit',
+      name: 'recruit',
+      component: () => import('../views/RecruitView.vue')
+    },
   ]
 })
 
