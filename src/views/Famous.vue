@@ -72,7 +72,7 @@ export default {
           },
           lineStyle:{//正常情况显示
             color: 'red',
-            width: 1,
+            width: 5,
           },
           data: [
             {
@@ -81,6 +81,7 @@ export default {
               symbolSize: [60, 80],
               //自定义图片
               symbol: 'image://src/assets/swust_01.png',
+              url: "https://xyh.swust.edu.cn/portal.php?mod=list&catid=44",
               children: [
                 {
                   name: '70年代',
@@ -93,7 +94,7 @@ export default {
                     {
                       name: '庞中华',
                       symbol: 'image://src/assets/pangzhonghua.jpg',
-                      url:'http://www.baidu.com',
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=413",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"red"
@@ -103,6 +104,7 @@ export default {
                       name: '曾祥炜',
                       symbol: 'image://src/assets/zemgyamgwei.jpg',
                       symbolSize: [70, 80],
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=414",
                       lineStyle:{
                         color:"red"
                       }
@@ -110,6 +112,7 @@ export default {
                     {
                       name: '刘碧贵',
                       symbol: 'image://src/assets/liubigui.jpg',
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=422 ",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"red"
@@ -119,6 +122,7 @@ export default {
                     {
                       name: '王海滨',
                       symbol: 'image://src/assets/wanghaibing.jpg',
+                      url: "",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"red"
@@ -137,6 +141,7 @@ export default {
                     {
                       name: '王聚会',
                       symbol: 'image://src/assets/wangjuhui.jpg',
+                      url: "",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"blue"
@@ -145,6 +150,7 @@ export default {
                     {
                       name: '杜建中',
                       symbol: 'image://src/assets/dujianzhong.jpg',
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=1036",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"blue"
@@ -163,6 +169,7 @@ export default {
                     {
                       name: '蒋敏',
                       symbol: 'image://src/assets/jiangming.jpg',
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=125",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"#aaa"
@@ -171,6 +178,7 @@ export default {
                     {
                       name: '宋国旭',
                       symbol: 'image://src/assets/songguoxu.jpg',
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=1673",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"#aaa"
@@ -189,6 +197,8 @@ export default {
                     {
                       name: '吕福强',
                       symbol: 'image://src/assets/lvfuqiang.jpg',
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=2267",
+
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"green"
@@ -197,6 +207,7 @@ export default {
                     {
                       name: '耿向顺',
                       symbol: 'image://src/assets/gengxiangshun.jpg',
+                      url: "https://xyh.swust.edu.cn/portal.php?mod=view&aid=2122",
                       symbolSize: [70, 80],
                       lineStyle:{
                         color:"green"
@@ -211,7 +222,7 @@ export default {
       })
       tr.on("click",function (e){
         console.log(e);
-        window.open(e.data,url);
+        window.location.href = e.data.url;
       })
     }
   }
@@ -223,6 +234,6 @@ export default {
   display:inline-block;
   width:1400px;
   height:750px;
-  background-color:#1d273e;
+  background-image: url("src/assets/icon70.png");
 }
 </style>

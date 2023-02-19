@@ -1,5 +1,6 @@
 <template>
 <!--  <Distributon></Distributon>-->
+
   <RiseSun></RiseSun>
 </template>
 
