@@ -17,7 +17,7 @@
           <!--              <li><a href="#">外国语学院</a></li>-->
         </ul>
       </li>
-      <li><a href="javascript:;" class=''>优秀校友</a></li>
+      <li><router-link to="famous">知名校友</router-link></li>
       <li><a href="javascript:;" class=''>师资信息</a></li>
       <li><router-link to="zhaosheng">招生信息</router-link></li>
       <li><a href="javascript:;" class=''>科学研究</a></li>
