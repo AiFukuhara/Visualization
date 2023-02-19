@@ -81,7 +81,6 @@ export default {
               symbolSize: [60, 80],
               //自定义图片
               symbol: 'image://src/assets/swust_01.png',
-              url: "https://xyh.swust.edu.cn/portal.php?mod=list&catid=44",
               children: [
                 {
                   name: '70年代',
