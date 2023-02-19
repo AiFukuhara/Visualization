@@ -90,13 +90,6 @@ export default {
                   color: '#e0719c'
                 }
               },
-              {
-                name: 'Jasmine',
-                value: 1,
-                itemStyle: {
-                  color: '#f7f1bd'
-                }
-              }
             ]
           },
 
@@ -556,8 +549,8 @@ export default {
   overflow: hidden;
   /* width: 100%;
   height: 100%; */
-  width: 1000px;
-  height: 1500px;
+  width: 500px;
+  height: 750px;
   margin: 0;
   font-family: "微软雅黑";
   top:150px;

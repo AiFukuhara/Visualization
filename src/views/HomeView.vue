@@ -3,7 +3,7 @@
     <div class="ym_bg">
       <div class="head"></div>
       <div class="ym_box">
-        <div class="logo fd_l"> <img src="./assets/logo.png" alt="logo" style="top: 130px;width: 272px;height: 70px"> </div>
+        <div class="logo fd_l"> <img src="src/assets/logo.png" alt="logo" style="top: 130px;width: 272px;height: 70px"> </div>
     <ul class="ym_nva fd_l" style="top: 110px">
       <li><a href="#" class="ys">首页</a></li>
       <li>

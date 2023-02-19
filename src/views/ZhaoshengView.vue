@@ -2,6 +2,8 @@
 <!--  <Distributon></Distributon>-->
 
   <RiseSun></RiseSun>
+  <Distributon></Distributon>
+  <SectorBenke></SectorBenke>
 </template>
 
 <script>
