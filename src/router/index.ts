@@ -27,6 +27,11 @@ const router = createRouter({
       name: 'recruit',
       component:RecruitView
     },
+    {
+      path: '/famous',
+      name: 'famous',
+      component: () => import('../views/Famous.vue')
+    }
   ]
 })
 

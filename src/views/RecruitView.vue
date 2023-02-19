@@ -1,5 +1,5 @@
 <template>
-  <div style="float: left">
+  <div style="float: left;">
     <div id="myChart" :style="{ width: '1200px', height: '300px'}"></div>
   </div>
 
