@@ -19,7 +19,7 @@
       </li>
       <li><a href="javascript:;" class=''>优秀校友</a></li>
       <li><a href="javascript:;" class=''>师资信息</a></li>
-      <li><a href="javascript:;" class=''>招生信息</a></li>
+      <li><router-link to="zhaosheng">招生信息</router-link></li>
       <li><a href="javascript:;" class=''>科学研究</a></li>
       <li>
         <a href="javascript:;">社会服务</a>
