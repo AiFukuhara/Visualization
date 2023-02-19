@@ -138,8 +138,8 @@ export default {
   overflow: hidden;
   /* width: 100%;
   height: 100%; */
-  width: 1000px;
-  height: 1500px;
+  width: 800px;
+  height: 400px;
   margin: 0;
   font-family: "微软雅黑";
   top:150px;
