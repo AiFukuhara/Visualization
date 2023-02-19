@@ -17,6 +17,22 @@
       进入新时代，学院以“双一流”建设为契机，在学校“共建与区域产学研联合办学”体制下，积极与区域国防军工单位、科研院所、企业开展科研合作、资源共享和人才培养，将学院建设为特色鲜明的教学研究型学院，为实现学院愿景“成为全国地方高校在计算机人才培养、学科建设等方面的引领者”而努力奋斗！</h6>
     <img src="src/assets/computer.png" width="900" height="600"  alt="" id="computer"/>
   </div>
+
+  <div id="bar" style="width: 500px;height: 600px"></div>
+
+
+<!--  <ph-progress-bar-->
+<!--      :value="0"-->
+<!--      :max="100"-->
+<!--      format="当前进度：v/m"-->
+<!--  ></ph-progress-bar>-->
+<!--  <p> demo1 </p>-->
+<!--  <ph-progress-bar-->
+<!--      :value="10"-->
+<!--      :max="100"-->
+<!--      format="进度：%"-->
+<!--  ></ph-progress-bar>-->
+
 </template>
 
 <style>
@@ -36,3 +52,7 @@
   top:50px;
 }
 </style>
+<script setup lang="ts">
+import SectorBenke from "@/components/SectorBenke.vue";
+import PhProgressBar from 'ph-progress-bar'
+</script>

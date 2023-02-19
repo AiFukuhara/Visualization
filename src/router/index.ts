@@ -20,7 +20,12 @@ const router = createRouter({
     {
       path:'/homepage',
       name:'homepage',
-      component:HomeView  
+      component:HomeView
+    },
+    {
+      path:'/zhaosheng',
+      name:'zhaosheng',
+      component: () => import('../views/ZhaoshengView.vue')
     },
     {
       path: '/recruit',

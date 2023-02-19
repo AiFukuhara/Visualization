@@ -1,7 +1,7 @@
 <template>
   <el-carousel :interval="5000" arrow="always" style="height: 250px">
     <el-carousel-item v-for="item in 4" :key="item">
-      <h3 text="2xl" justify="center"><img src="src/assets/xiaoxun1.png" style="width: 550px;height: 250px"></h3>
+      <h3 text="2xl" justify="center"><img src="src/assets/xiaoxun1.png" style="width: 550px;height: 250px;top: -10px"></h3>
     </el-carousel-item>
   </el-carousel>
   <el-carousel :interval="5000" arrow="always" style="height: 250px">

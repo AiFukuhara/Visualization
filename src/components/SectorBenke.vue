@@ -14,7 +14,7 @@ export default {
 
     var chartDom = document.getElementById('sec')!;
     var myChart = echarts.init(chartDom);
-    var option: EChartsOption;
+    var option: { legend: { orient: string; top: number; data: any[]; left: number; bottom: number; type: string }; series: { data: any[]; center: string[]; name: string; emphasis: { itemStyle: { shadowOffsetX: number; shadowBlur: number; shadowColor: string } }; type: string; radius: string }[]; tooltip: { formatter: string; trigger: string }; title: { subtext: string; top: string; left: string; text: string } };
 
     const data = genData(31);
 

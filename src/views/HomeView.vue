@@ -8,16 +8,18 @@
       <li><a href="#" class="ys">首页</a></li>
       <li>
         <!-- <a href="#" class=''>二级学院</a> -->
-        <router-link to="about">计算机科学与技术学院</router-link>
-
+        <router-link to="about">二级学院</router-link>
+        <ul>
+  <!--        <li><a href="#">计算机科学与技术学院</a></li>-->
+          <!--              <li><a href="#">信息学院</a></li>-->
+          <!--              <li><a href="#">文学与艺术学院</a></li>-->
+          <!--              <li><a href="#">马克思主义学院</a></li>-->
+          <!--              <li><a href="#">外国语学院</a></li>-->
+        </ul>
       </li>
-      <li>
-        <router-link to="famous">优秀校友</router-link>
-      </li>
+      <li><a href="javascript:;" class=''>优秀校友</a></li>
       <li><a href="javascript:;" class=''>师资信息</a></li>
-      <li>
-        <router-link to="recruit">招生信息</router-link>
-      </li>
+      <li><a href="javascript:;" class=''>招生信息</a></li>
       <li><a href="javascript:;" class=''>科学研究</a></li>
       <li>
         <a href="javascript:;">社会服务</a>
