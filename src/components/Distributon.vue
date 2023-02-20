@@ -15,7 +15,8 @@ export default {
 
     option = {
       tooltip: {
-        trigger: 'axis',
+        trigger: 'item',
+        // trigger: 'axis',
         axisPointer: {
           type: 'shadow'
         }
@@ -23,7 +24,7 @@ export default {
       legend: {},
       grid: {
         left: '3%',
-        right: '4%',
+        right: '2%',
         bottom: '3%',
         containLabel: true
       },
@@ -40,7 +41,7 @@ export default {
       ],
       series: [
         {
-          name: 'Direct',
+          name: '毕业人数',
           type: 'bar',
           emphasis: {
             focus: 'series'
@@ -48,34 +49,43 @@ export default {
           data: [320, 332, 301, 334, 390, 330, 320]
         },
         {
-          name: 'Email',
+          name: '本科毕业',
+          stack:'毕业人数',
           type: 'bar',
-          stack: 'Ad',
           emphasis: {
             focus: 'series'
           },
-          data: [120, 132, 101, 134, 90, 230, 210]
+          data: [320, 332, 301, 334, 390, 330, 320]
         },
         {
-          name: 'Union Ads',
+          name: '硕士毕业',
+          stack:'毕业人数',
+          barWidth: 5,
           type: 'bar',
-          stack: 'Ad',
           emphasis: {
             focus: 'series'
           },
-          data: [220, 182, 191, 234, 290, 330, 310]
+          data: [320, 332, 301, 334, 390, 330, 320]
         },
         {
-          name: 'Video Ads',
+          name: '博士毕业',
+          stack:'毕业人数',
           type: 'bar',
-          stack: 'Ad',
           emphasis: {
             focus: 'series'
           },
-          data: [150, 232, 201, 154, 190, 330, 410]
+          data: [320, 332, 301, 334, 390, 330, 320]
         },
         {
-          name: 'Search Engine',
+          name: '就业人数',
+          type: 'bar',
+          emphasis: {
+            focus: 'series'
+          },
+          data: [320, 332, 301, 334, 390, 330, 320]
+        },
+        {
+          name: '招生总人数',
           type: 'bar',
           data: [862, 1018, 964, 1026, 1679, 1600, 1570],
           emphasis: {
@@ -89,41 +99,32 @@ export default {
           }
         },
         {
-          name: 'Baidu',
+          name: '本科招生',
           type: 'bar',
           barWidth: 5,
-          stack: 'Search Engine',
+          stack: '招生总人数',
           emphasis: {
             focus: 'series'
           },
           data: [620, 732, 701, 734, 1090, 1130, 1120]
         },
         {
-          name: 'Google',
+          name: '硕士招生',
           type: 'bar',
-          stack: 'Search Engine',
+          stack: '招生总人数',
           emphasis: {
             focus: 'series'
           },
           data: [120, 132, 101, 134, 290, 230, 220]
         },
         {
-          name: 'Bing',
+          name: '博士招生',
           type: 'bar',
-          stack: 'Search Engine',
+          stack: '招生总人数',
           emphasis: {
             focus: 'series'
           },
           data: [60, 72, 71, 74, 190, 130, 110]
-        },
-        {
-          name: 'Others',
-          type: 'bar',
-          stack: 'Search Engine',
-          emphasis: {
-            focus: 'series'
-          },
-          data: [62, 82, 91, 84, 109, 110, 120]
         }
       ]
     };
@@ -139,7 +140,7 @@ export default {
   /* width: 100%;
   height: 100%; */
   width: 800px;
-  height: 400px;
+  height: 500px;
   margin: 0;
   font-family: "微软雅黑";
   top:150px;

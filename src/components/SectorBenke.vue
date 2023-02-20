@@ -1,5 +1,5 @@
 <template>
-    <div id="sec" style="background-color: aquamarine;"></div>
+    <div id="sec"></div>
 </template>
 
 <script lang="ts">
