@@ -1,4 +1,5 @@
 <template>
+  <div style="left: 0px;top:0px;height: 150px;width: 1500px;background-image: url(src/assets/computerCollege.png);background-size: 1500px;background-repeat: no-repeat"></div>
   <div>
     <div id="tree"></div>
   </div>
@@ -232,8 +233,10 @@ export default {
 <style scoped>
 #tree{
   display:inline-block;
-  width:1400px;
-  height:750px;
-  background-image: url("src/assets/icon70.png");
+  width:1460px;
+  height:1050px;
+  background-image: url("src/assets/xiaoyouback.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1460px;
 }
 </style>
