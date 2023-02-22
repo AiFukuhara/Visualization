@@ -1,5 +1,5 @@
 <template>
-  <div style="left: 0px;top:0px;height: 150px;width: 1500px;background-image: url(src/assets/computerCollege.png);background-size: 1500px;background-repeat: no-repeat"></div>
+  <div style="left: 0px;top:0px;height: 200px;width: 1500px;background-image: url(src/assets/xiaoyouhead.png);background-size: 1500px;background-repeat: no-repeat"></div>
   <div>
     <div id="tree"></div>
   </div>
@@ -233,10 +233,10 @@ export default {
 <style scoped>
 #tree{
   display:inline-block;
-  width:1460px;
+  width:1560px;
   height:1050px;
   background-image: url("src/assets/xiaoyouback.jpeg");
   background-repeat: no-repeat;
-  background-size: 1460px;
+  background-size: 1560px;
 }
 </style>
