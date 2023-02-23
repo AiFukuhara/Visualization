@@ -59,7 +59,7 @@ export default defineComponent({
       })
 
       // var point = new BMap.Point(104.71079726144916,31.53772669852304);
-      var marker = new BMap.Marker(point);// 创建标注
+      var marker = new BMap.Marker(new BMap.Point(104.708,31.541));// 创建标注
       map.addOverlay(marker);
 
       var sContent = `<h4 style='margin:0 0 5px 0;'>科技之光</h4>
