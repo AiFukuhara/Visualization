@@ -20,6 +20,7 @@
   </div>
 
   <div id="bar" style="width: 500px;height: 600px"></div>
+<!--  <Sicence></Sicence>-->
 <!--  <vue-line-chart></vue-line-chart>-->
 
 <!--  <ph-progress-bar-->
@@ -55,4 +56,5 @@
 </style>
 <script setup lang="ts">
 
+// import Sicence from "@/components/Sicence.vue";
 </script>
