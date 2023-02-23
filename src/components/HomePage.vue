@@ -1,4 +1,4 @@
-<template>
+ <template>
   <el-timeline>
     <el-timeline-item center timestamp="" placement="top" size="large" color="rgb" hollow=true style="font-size: 30px">
       <el-card>

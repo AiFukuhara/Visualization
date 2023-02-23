@@ -18,15 +18,15 @@
         </ul>
       </li>
       <li><router-link to="famous">知名校友</router-link></li>
-      <li><a href="javascript:;" class=''>师资信息</a></li>
+<!--      <li><a href="javascript:;" class=''>师资信息</a></li>-->
       <li><router-link to="zhaosheng">招生信息</router-link></li>
       <li><a href="javascript:;" class=''>科学研究</a></li>
-      <li>
-        <a href="javascript:;">社会服务</a>
-        <ul>
-  <!--        <li><a href="#">123</a></li>-->
-        </ul>
-      </li>
+<!--      <li>-->
+<!--        <a href="javascript:;">社会服务</a>-->
+<!--        <ul>-->
+<!--  &lt;!&ndash;        <li><a href="#">123</a></li>&ndash;&gt;-->
+<!--        </ul>-->
+<!--      </li>-->
       <!--        <div class="clearfix"></div>-->
     </ul>
       </div>
@@ -198,7 +198,7 @@
     width: 100%;
     overflow: scroll;
     text-align: left;
-    color: white;
+    color: rgba(255, 255, 255, 0.92);
     left: 0px;
     top:0px;
   }
