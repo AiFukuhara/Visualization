@@ -2,7 +2,7 @@
 <div id="charts" style="height: 1000px;width: 1200px;"></div>
 </template>
 
-<script lang="js">
+<script>
 import * as echarts from 'echarts';
 import type {EChartsOption} from "echarts";
 

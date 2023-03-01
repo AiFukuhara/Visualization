@@ -20,7 +20,7 @@
       <li><router-link to="famous">知名校友</router-link></li>
 <!--      <li><a href="javascript:;" class=''>师资信息</a></li>-->
       <li><router-link to="zhaosheng">招生信息</router-link></li>
-      <li><router-link to="science">科学研究</router-link></li>
+      <li><router-link to="science-research">科学研究</router-link></li>
 <!--      <li>-->
 <!--        <a href="javascript:;">社会服务</a>-->
 <!--        <ul>-->
