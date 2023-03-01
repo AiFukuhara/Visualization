@@ -31,7 +31,7 @@
 #computer{
   position:absolute;
   left:600px;
-  top:50px;
+  top:20px;
 }
 </style>
 <script setup lang="ts">
