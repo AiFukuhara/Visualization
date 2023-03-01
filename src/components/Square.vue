@@ -58,7 +58,7 @@ export default {
       myChart.setOption(
           (option = {
             title: {
-              text: 'Disk Usage',
+              text: '学术规模',
               left: 'center'
             },
 
@@ -76,14 +76,14 @@ export default {
                   '<div class="tooltip-title">' +
                   echarts.format.encodeHTML(treePath.join('/')) +
                   '</div>',
-                  'Disk Usage: ' + echarts.format.addCommas(value) + ' KB'
+                  'Disk Usage: ' + echarts.format.addCommas(value) + ' 个'
                 ].join('');
               }
             },
 
             series: [
               {
-                name: 'Disk Usage',
+                name: '学术规模',
                 type: 'treemap',
                 visibleMin: 300,
                 label: {

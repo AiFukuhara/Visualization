@@ -18,40 +18,33 @@ export default {
     var datas = [
       ////////////////////////////////////////
       [
-        { name: '圣彼得堡来客', value: 5.6 },
-        { name: '陀思妥耶夫斯基全集', value: 1 },
-        { name: '史记精注全译（全6册）', value: 0.8 },
-        { name: '加德纳艺术通史', value: 0.5 },
-        { name: '表象与本质', value: 0.5 },
-        { name: '其它', value: 3.8 }
+        { name: 'SCI 一区', value: 36 },
+        { name: 'SCI 二区', value: 124 },
+        { name: 'SCI 三、四区', value: 932 },
+        { name: 'CSSCI', value: 1170 },
       ],
       // ////////////////////////////////////////
       [
-        { name: '银河帝国5：迈向基地', value: 3.8 },
-        { name: '俞军产品方法论', value: 2.3 },
-        { name: '艺术的逃难', value: 2.2 },
-        { name: '第一次世界大战回忆录（全五卷）', value: 1.3 },
-        { name: 'Scrum 精髓', value: 1.2 },
-        { name: '其它', value: 5.7 }
+        { name: '学术著作', value: 276 },
+        { name: '授权发明专利', value: 504 },
+        { name: '科技成果转化', value: 102 },
       ],
 
       ////////////////////////////////////////
       [
-        { name: '克莱因壶', value: 3.5 },
-        { name: '投资最重要的事', value: 2.8 },
-        { name: '简读中国史', value: 1.7 },
-        { name: '你当像鸟飞往你的山', value: 1.4 },
-        { name: '表象与本质', value: 0.5 },
-        { name: '其它', value: 3.8 }
+        { name: '国家发明奖', value: 1 },
+        { name: '自然科学和科技进步奖', value: 1 },
+        { name: '省部级奖励', value: 50 },
+        { name: '一级学会奖励', value: 38 }
       ]
     ];
 
     option = {
       title: {
-        text: '阅读书籍分布',
+        text: '学术成果',
         left: 'center',
         textStyle: {
-          color: '#999',
+          color: '#3f3737',
           fontWeight: 'normal',
           fontSize: 14
         }
@@ -71,7 +64,7 @@ export default {
           },
           label: {
             alignTo: 'edge',
-            formatter: '{name|{b}}\n{time|{c} 小时}',
+            formatter: '{name|{b}}\n{time|{c} 项}',
             minMargin: 5,
             edgeDistance: 10,
             lineHeight: 15,
